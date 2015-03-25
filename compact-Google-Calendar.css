@@ -1,0 +1,292 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix("http://www.google.com/calendar/"),url-prefix("https://www.google.com/calendar/")
+{
+/**
+	@version 2015-03-25a
+	@desc a CSS stylesheet to make Google Calendar more compact with an emphasis on UX over pointless whitespace
+	@since 2014-05-06
+	@author Allan Laal <allan@permanent.ee>
+	@see https://github.com/allanlaal/compact-Google-Calendar
+*/
+
+
+	.gb_Eb {
+		height: 30px !important;
+	}
+
+	#gbq2 {
+		padding-top: 0px !important;
+	}
+
+
+
+	#mainnav {
+		height: 0px !important;
+		padding: 0px !important;
+	}
+
+	#vr-nav {
+		margin: 0 !important;
+		padding: 0 !important;
+		line-height: 10px !important;
+	}
+
+	#topnav-container {
+		top: -30px !important;
+		position: relative !important;
+	}
+
+	#onegoogbar .gb_mb {
+	/*	left: 0px !important;
+		position: relative !important;*/
+		width: 597px !important;
+		margin-left: 286px !important;
+	/*	height: 21px !important;*/
+	}
+
+	#gbq {
+		height: 15px !important;
+		left: 228px !important;
+	} 
+
+	#onegoogbar {
+		height: 15px !important;
+	}
+
+	#topRightNavigation, #searchNavigation {
+	  margin-right:0px !important;
+	  right:0px !important;
+	}
+
+	.date-nav-prev, .date-picker-off {
+		padding-left: 0px !important;
+	}
+
+
+	#topLeftNavigation {
+		left: 128px !important;
+		position: relative !important;
+	}
+
+
+
+
+	#nav  {
+		z-index: 999 !important;
+		width: 100px !important;
+		margin-left: 15px !important;
+		top: 9px !important;
+	}
+
+	 #sidebar {
+		top: -35px !important;
+		left: -14px !important;
+		position: relative !important;
+		z-index: 999 !important;
+		width: 45px !important;
+		
+		
+	}
+
+	#sidebar .qnb-container {
+	}
+
+	#gbq1, 
+	#gb .gb_3, 
+	#vr-nav .applogo, 
+	.gb_wa, 
+	#onegoogbar #gb .gb_9b,
+	#clst_my, 
+	#clst_fav,
+	#gb .gb_fc .gb_5
+	{
+		z-index: -9999 !important;
+		display: none !important;
+		width: 0px !important;
+		height: 0px !important;
+	}
+
+	#gbqfqw {
+		top: 0px !important;
+		height: 15px !important;
+		margin-top: 0px !important;
+		font-size:14px  !important;
+		padding:  0px !important;
+	}
+
+	#gbqfqwb {
+		top: -10px !important;
+		height: 15px !important;
+		margin-top: 0px !important;
+		font-size:14px  !important;
+		padding:  0px !important;
+		
+	}
+	.goog-zippy-expanded .monthtableBody {
+	  padding-left: 0px !important;
+	}
+
+	#dp_0_tbl {
+		margin-left: 15px !important;
+	}
+
+	#todayButton\:2 {
+		z-index: 999 !important;
+	}
+
+	.calListLabel, .calListLabel-sel {
+		overflow: visible !important;
+	}
+
+	.callListSquare {
+		margin-right: 0px !important;
+	}
+
+
+
+	#mainbody {
+		margin-top: 0px !important;
+		margin-left: 92px !important;
+		padding-top: 0px !important;
+	}
+
+	#dp_0, #clst_my, #lhscalinner_my, #clst_fav, #lhscalinner_fav {
+		padding: 0px !important;
+		margin: 0px !important;
+		top: -45px !important;
+		left: -15px !important;
+		position: relative !important;
+	}
+
+	.goog-imageless-button {
+		padding: 0px !important;
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+		min-width: 0px !important;
+		z-index: 999 !important;
+	}
+
+	.navbuttonouter {
+		margin-top: 13px !important;
+		margin-bottom: 0px !important;
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+
+	/*top bar height:*/
+	#gbqfb, .asb-w, #gbqfb span, .goog-imageless-button, .navbutton, .gbqfif, .gbqfsf, #gbqfqw, #gbqfqwb {
+		height: 15px !important;
+		line-height: 15px !important;
+	}
+
+	/*.gbqfif, .gbqfsf {
+		height: 8px !important; 
+		line-height: 17px !important;
+	}*/
+
+	.navbutton {
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+
+	#topcontainerwk .wk-daynames, #topcontainerwk .wk-dayname {
+		font-weight: bold !important;
+		line-height: 4px !important;
+	}
+
+	#topcontainerwk .wk-daynames .wk-today {
+		font-weight: bolder !important;
+		color: salmon !important;
+	}
+
+	#gridcontainer {
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+
+	#topcontainerwk .wk-dummyth {
+		width: 0px !important;
+	}
+
+	#topLeftNavigation .date-controls .nav-table {
+		width: 50px !important;
+		margin-left: -65px !important;
+	}
+
+	#dp_0_cur .zippy-arrow {
+		margin-left: 13px !important;
+		display: none !important;
+	}
+
+	#dp_0 {
+		display: block !important;
+	}
+
+	#calendars_my, #calendars_fav {
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+		margin-left: 3px !important;
+		margin-right: -15px !important;
+	}
+
+
+	#calendars_my .calListLabel-sel {
+		overflow: visible !important;
+		z-index: 800 !important;
+	}
+
+	.calListLabelOuter {
+		padding: 0px !important;
+	}
+
+
+	#searchAddCalBox {
+		width: 111% !important;
+	}
+
+
+	#topRightNavigation, #searchNavigation {
+		top: 10px !important;
+	}
+
+	.gsib_a input {
+		top: 7px !important;
+	}
+
+	.asb-i {
+		margin: 4px;
+	}
+
+	.calHeaderSpace {
+		margin-left: 16px !important;
+	}
+
+	.wk-allday {
+		z-index: 9999 !important;
+	}
+
+	.gb_ob {
+		z-index: 0 !important;
+		padding-left: 100px !important;
+	}
+
+	.gb_ob input {
+		z-index: 9999 !important;
+	}
+		
+		.gb_Ub > .gb_h {
+		height: 1px !important;
+			
+		}
+	/* show weather as text */
+	.wk-webcontent-td {
+		font-size: 11px !important;
+	}
+
+}
